@@ -29,7 +29,7 @@
 
 	 
 ## 古典测量理论
-(classical measurement theory)
+(**classical measurement theory**)
 
 Observed Score (OS) 观测分数受三个影响:
  1. 真实得分(True Score; TS)
