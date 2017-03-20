@@ -31,24 +31,31 @@
 ## 古典测量理论
 (**classical measurement theory**)
 
-Observed Score (OS) 观测分数受三个影响:
+**Observed Score (OS)** 观测分数受三个影响:
  1. 真实得分(True Score; TS)
  2. 独特得分(Unique Score; US)
  3. 误差得分(Error Score; ES)
 
 「离职意向」的例子:
+
 OS1 = TS + US1 + ES1 (第一题)
+
 OS2 = TS + US2 + ES2 (第二题)
+
 OS3 = TS + US3 + ES3 (第三题)
 	 
 ### 变异量(Variance)及共变量(Covariance)
+国内称为方差及协方差
 
 - 以变异量及共变量验证构念间之关系
-- 样本整体变异量(Observed Variances; O),
-       包括:
-(1)真实差异(True Variance；T)
-(2)独有因素带来的差异(Unique Variance；U)
-(3)随机误差带来的差异(Error Variance；E)
+- 样本整体变异量(Observed Variances; O),包括:
+
+(1) 真实差异(True Variance；T)
+
+(2) 独有因素带来的差异(Unique Variance；U)
+
+(3) 随机误差带来的差异(Error Variance；E)
+
  $$O = T + U + E$$
 
 	 
