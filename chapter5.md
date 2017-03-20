@@ -61,7 +61,7 @@ OS3 = TS + US3 + ES3 (第三题)
 	 
 ### 信度(reliability)
 
-1.  随机误差差异$ E$ 占 观测差异$O$ 的比重
+1.  随机误差差异 $E$ 占 观测差异$O$ 的比重
 2.  因为 $E$ 是随机的，信度是测量的工具免于随机误差的程度
 3.  测量结果的一致性或稳定性
 
@@ -78,9 +78,13 @@ $$信度系数 =\sqrt{\frac{T+U}{O}}=\sqrt \frac{O-E}{O}$$
 	 
 ### 信度(reliability)的估计
  两次测量的相关系数:
+ 
 （a）再测信度(test-retest reliability)
+
 （b）复本信度(alternative forms reliability)
+
 （c）折半信度(split-half reliability)
+
 （d）项目间的一致性(internal consistency reliability) : Coefficient alpha; $\alpha$ (对应SPSS “reliability” 的指令)
 
 - 一般来说信度系数要在0.7以上
