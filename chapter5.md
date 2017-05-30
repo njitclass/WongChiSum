@@ -257,7 +257,10 @@ JOBPERF      0.13        0.42        1.00
 
 (1) 常用: RMSEA(或RMR; 最好是少于0.08)、NNFI(也称为TLI；最好是大于0.90)和CFI(最好是大于0.90)。
 (2) 我们一般会报告Chi-Square及其Degrees of Freedom(它们的比率最好少于2.5)、及GFI(最好是大于0.90)
-(3) Chi-Square和GFI与样本数有很大的关系，很多时样本数愈大，它们反而更不理想，所以相对而言，RMSEA、TLI和CFI在判定是否接受原来关系假设更为重要。
+(3) Chi-Square和GFI与样本数有很大的关系，很多时样本数愈大，它们反而更不理想，所以相对而言，RMSEA（近似误差均方根）、NNFI（非规范拟合指数）和CFI（比较拟合指数）在判定是否接受原来关系假设更为重要。
+
+这些统计量都是结构方程中用来检验你所建立的模型与数据的拟合程度的指标，称为拟合优度指数（goodness of fit index），简称为拟合指数。不同学者提出了许多不同的拟合指数。常用的指标一般是卡方，自由度df，RMSEA( Root Mean Square Error of Approximation, 近似误差均方根）)，GFI（goodness-of-fit index, 拟合优度指数）, NNFI（non-normed fit index）和CFI(comparative fit index, 比较拟合指数)。一般认为，如果RMSEA在0.08以下（越小越好），GFI、NNFI和CFI在0.9以上（越大越好），所拟合的模型是一个“好”模型。
+如果你要更详细的了解这些拟合指数，请参考侯杰泰等人的著作《结构方程模型及其应用》
 
 ## 效度(validity)的概念
 
